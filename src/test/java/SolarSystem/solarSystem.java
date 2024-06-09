@@ -9,5 +9,12 @@ public class solarSystem {
         solar.planet="2";
         solar.star="2";
         System.out.println("Pluto Identifies as a Planet");
+
+        featureSun feature= new featureSun();
+        feature.color= "red";
+        feature.size= "1000";
+        feature.temp="20";
+
+        System.out.println("Martian are going to invade Earth");
     }
 }
